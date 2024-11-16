@@ -1,1 +1,1 @@
-# landing-page
+Creating landing page using HTML and CSS - The Odin Project
