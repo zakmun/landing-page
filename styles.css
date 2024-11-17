@@ -8,7 +8,6 @@
 body {
     font-family: roboto;
     min-height: 100vh;
-    
 }
 
 
@@ -39,16 +38,31 @@ ul {
     padding: 100px 200px;    
     display: flex;
     justify-content: space-between;
+    gap: 10px;
+}
+
+.hero-image img {
+    height: 250px;
+    width: 500px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    gap: 10px
 }
 
 .heading h1 {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+    max-width: 500px;
 }
 
 .heading p {
     color: #c3c5c9;
+    max-width: 400px;
 }
 
 button {
@@ -61,12 +75,6 @@ button {
     color: #F9FAF8;
     font-weight: bold;
     font-size: 15px;
-}
-
-.img-placeholder {
-    background-color: gray;
-    width: 400px;
-    height: 200px;
 }
 
 h2 {
@@ -83,6 +91,7 @@ h2 {
     gap: 50px;
     text-align: center;
     margin-bottom: 100px;
+    flex-wrap: wrap;
 }
 
 .info img {
@@ -90,15 +99,17 @@ h2 {
     height: 150px;
     width: 150px;
     border-radius: 10px;
-    border-width: 4px;
-    border-style: solid;
-    border-color: #3882f6;
     margin-bottom: 10px;
-
+    border: 4px solid #3882f6
 }
 
-.quote {
+.text {
+    max-width: 150px;
+}
+
+.quote-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #e5e7eb;
@@ -107,6 +118,21 @@ h2 {
     font-style: italic;
     color: #1f2937;
     margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.quote {
+    max-width: 800px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.quote-container p {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 20px;
 }
 
 .cta-container {
@@ -116,10 +142,12 @@ h2 {
     margin: 0 auto;
     margin-bottom: 100px;
     background-color: #3882f6;
-    width: 800px;
+    max-width: 800px;
     padding: 40px 10px;
     border-radius: 10px;
     color: #e5e7eb;
+    flex-wrap: wrap;
+
 }
 
 .cta-container h3 {
@@ -133,9 +161,6 @@ h2 {
     border: solid #e5e7eb 2px;
     
 }
-
-
-
 
 .footer {
     display: flex;
