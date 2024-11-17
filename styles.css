@@ -69,3 +69,35 @@ ul {
     width: 400px;
     height: 200px;
 }
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 50px 0;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.info img {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #3882f6;
+    margin-bottom: 10px;
+
+}
+
+.info p { 
+    max-width: 200px;
+}
