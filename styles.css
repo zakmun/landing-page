@@ -4,9 +4,13 @@
     padding: 0;
 }
 
+
 body {
-    font-family: Roboto;
+    font-family: roboto;
+    min-height: 100vh;
+    
 }
+
 
 .header {
     background-color: lightgray;
@@ -31,3 +35,37 @@ ul {
     color: #e5e7eb;
 }
 
+.hero {
+    background-color: #1F2937;
+    padding: 100px 50px;    
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.heading p {
+    color: #b5b7bc;
+}
+
+.heading button {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 110px;
+    height: 35px;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.img-placeholder {
+    background-color: gray;
+    width: 400px;
+    height: 200px;
+}
